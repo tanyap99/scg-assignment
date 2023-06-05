@@ -1,7 +1,10 @@
 # scg-assignment
 Assignment for test skill
 
-Please run backend app before run frontend app for start API service before frontend to call service
+# How to prepare assets follow step
+Step 1 : Please add API_KEY of google service on backend app (For support call google API)
+Step 2 : Please add API_KEY of google service on frontend app (For support call map API)
+Step 3 : Please run backend app before run frontend app for start API service before frontend to call service
 
 # How to run backend app
 Step 1 : Initial redis service for support caching (Please use docker help to redis service for caching)
