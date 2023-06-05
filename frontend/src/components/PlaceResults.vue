@@ -36,7 +36,7 @@ export default {
                          <p class="card-text mb-3 fw-bold"><span class="text-dark fw-bold text-uppercase">Rating : </span>{{
                               place?.rating }}</p>                      
                          <div>
-                              <GoogleMap api-key="AIzaSyA_tBridUCk_b0rkHsBzDJxtnz1jXglq74" style="width: 100%; height: 250px"
+                              <GoogleMap api-key="<API_KEY>" style="width: 100%; height: 250px"
                                    :center="place.geometry.location" :zoom="16">                              
                                    <CustomMarker
                                         :options="{ position: place.geometry.location }">
